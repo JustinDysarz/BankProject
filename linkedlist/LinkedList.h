@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #endif
 
-#define NEW ((Cons *)malloc(sizeof(Cons)))
+#define NEW_CONS ((Cons *)malloc(sizeof(Cons)))
 
 typedef enum Data { ASSOCIATE, CUSTOMER, MANAGER, PROFILE, CREDENTIAL } Data;
 

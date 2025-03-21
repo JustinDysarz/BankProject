@@ -1,7 +1,7 @@
 #include "LinkedList.h"
 
 Cons *newList(void *data, Data dataType) {
-  Cons *cons = NEW;
+  Cons *cons = NEW_CONS;
   cons->type = dataType;
   cons->data = data;
   return cons;
