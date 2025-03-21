@@ -3,7 +3,7 @@ CFLAGS=-g -O3 -Wall
 
 all: Bank
 
-Bank: Main.c LinkedList.o
+Bank: Main.c linkedlist/LinkedList.o
 	$(CC) $(CFLAGS) -o $@ $^
 
 %.o: %.c

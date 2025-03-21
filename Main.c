@@ -4,6 +4,6 @@ int main(int argc, char *argv[]) {
   Cons *list;
   list = newList(NULL, CUSTOMER);
   deleteList(list);
-  puts("Hello World");
+  puts("Hello World!");
   exit(EXIT_SUCCESS);
 }
