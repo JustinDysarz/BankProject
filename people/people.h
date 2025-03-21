@@ -1,6 +1,8 @@
 #ifndef PEOPLE
 #define PEOPLE
 
+typedef enum PersonType { ASSOCIATE, CUSTOMER, MANAGER } PersonType;
+
 typedef struct Profile {
   unsigned int id;
   char *firstName;

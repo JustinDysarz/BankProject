@@ -7,7 +7,7 @@
 
 #define NEW_CONS ((Cons *)malloc(sizeof(Cons)))
 
-typedef enum Data { ASSOCIATE, CUSTOMER, MANAGER, PROFILE, CREDENTIAL } Data;
+typedef enum Data { PERSON, PROFILE, CREDENTIAL } Data;
 
 typedef struct Cons {
   void *data;
